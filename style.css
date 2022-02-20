@@ -1,0 +1,548 @@
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(./rec/download-background.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face{font-family:"fontfutura";src:url("https://fonts.googleapis.com/css?family=Open+Sans") format("ttf");font-weight:normal;font-style:normal;
+
+}
+
+
+/* HEADER *********************************************************************************************************** */
+
+div.boxmain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+
+}
+div.boxmain a {
+text-decoration: none;
+color:white;
+margin-left: 3em;
+font-size: .8em;
+}
+
+.boxmain img {
+    width: 5%;
+}
+
+/*********FIRST SECTION***************************************************************************/
+
+#central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.box-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 100vh;
+}
+
+.box-text h1 {
+    color: #fff;
+    font-size: 2.5em;
+    width: 90%;
+}
+
+.box-text p {
+    color: #fff;
+    margin-top: 1rem;
+}
+
+div.box-bottom a {
+    text-decoration: none;
+    color:white;
+    font-size: .8em;
+    display: inline;
+
+}
+
+.box-text span {
+    color: #399;
+    margin-left: 10px;
+
+    }
+
+.box-bottom {
+    display: flex;
+}
+
+div.box-image img {
+    width: 20vw;
+}
+
+.btn {
+    display: flex;
+    text-align: center;
+    background-color:#399;
+    color:#fff;
+    padding: .6em;
+    margin: 1rem;
+    border-radius:120px;
+    cursor:pointer;
+    border:1px transparent;
+    width: 40%;
+}
+
+/* TABLA ************************************************************************************************************************/
+
+section.costumers {
+    display: flex;
+    background-color: #2A2C2F;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin: auto auto;
+}
+
+article.card {
+    text-align:center;
+    width: 30%;
+    height: 100%;
+    padding: 1em;
+}
+
+
+
+.face {
+    display: flex;
+    margin-top: 200px;
+    background-image: url(/rec/contact-background.jpg);
+    height:300px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.testigos {
+    border-radius: 200px;
+    width: 80px;
+}
+
+
+.cardfather {
+    display: flex;
+    width: 80%;
+    justify-content:center;
+}
+
+.cardfather .card { 
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.card h4 { 
+    margin-top: 20px;
+}
+
+/************************* FEATURES **************************/
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    color: white;
+    background-color: rgba(9, 9, 9, .8);
+    width: 100%;
+    padding: 100px 100px;
+    
+}
+
+.config {
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+.config a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    width:80%;
+    
+    
+}
+
+.firstarticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 200px;
+    color: white;
+    
+
+}
+.firstarticle p {
+    margin-top: 10px;
+}
+
+.secondarticle {
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: space-evenly;
+    width: 200px;
+    color: white;
+}
+
+.secondarticle p {
+    margin-top: 10px;
+}
+
+
+/* ********************PREVISTA*********************************** */
+
+
+.preview {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    height: 500px;
+    
+}
+
+/*********************** section del id *********************/
+
+#firstsection {
+    display: flex;
+    gap: 5rem;
+    background-color: rgba(9, 9, 9, .8);
+    height: 40vw;
+    
+}
+
+.sectionleft {
+    display: flex;
+
+}
+
+.goals {
+    color: white;
+    width: 50%;
+    
+}
+
+.goals p {
+    margin-top: 10px;
+}
+
+.goals a {
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+    font-family: Georgia;
+    
+}
+
+.buttonleft {
+        display: flex; 
+        justify-content:center;
+        background-color:#399;
+        color:#fff; 
+        padding:10px 10px;
+        margin:10px;
+        font-size:16px;
+        border-radius:120px;
+        cursor:pointer;
+        border:1px transparent;
+        width: 30%;
+}   
+
+.onesection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+      
+}
+
+#firstsection a {
+    text-decoration: none;
+    font-size:10px;
+}
+
+#firstsection img {
+    width: 40%;
+    
+}
+
+.sectionright {
+    display: flex; 
+}
+
+.twosection {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.calendar {
+    color: white;
+    width: 50%;
+    
+}
+
+.calendar p {
+    margin-top: 10px;
+}
+
+.calendar a {
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+    font-family: Georgia;
+    
+}
+
+.buttonright {
+    display: flex; 
+    justify-content:center;
+    background-color:#399;
+    color:#fff; 
+    padding:10px 10px;
+    margin:10px;
+    font-size:16px;
+    border-radius:120px;
+    cursor:pointer;
+    border:1px transparent;
+    width: 30%;
+}
+
+/* ***********************CONTAINER - SMARPHONE***************************************************************** */
+    
+
+.smartphone-container {
+    display: flex;
+    background-image: url(/rec/contact-background.jpg);
+    justify-content:space-evenly;
+    padding: 100px 100px;
+}
+
+
+
+.smartphone-container img {
+    width: 10%;
+    height: 10%;
+}
+
+
+
+/**********************Replica de primera seccion********************************************************/
+
+.download {
+    display: flex;
+    align-content: center;
+    gap: 3rem;
+    padding: 100px 100px;
+    margin-left: 200px;;
+    
+}
+
+.boxtext { 
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+}
+
+.boxtext p {
+    margin-top: 20px;
+}
+
+.buttonaccess {
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.buttom{
+    display:flex;
+    text-align: center;
+    background-color:#399;
+    color:#fff; 
+    padding:10px 10px;
+    margin:10px;
+    font-size:16px;
+    border-radius:120px;
+    cursor:pointer;
+    border:1px transparent;
+    width: 60%;
+    
+}
+
+.buttonaccess a {
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+    font-family: Georgia;
+    display: inline;
+
+}
+
+.boximagen img {
+    width: 50%;
+    margin-top: 50px;
+}
+
+/*********************CONTADOR*********************************/
+
+
+/* contador  */
+
+.contador {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color: rgba(9, 9, 9, .8);
+    color:#399;
+    height: 200px;
+    
+    
+}
+
+.contador h4 {
+ font-size: 50px;
+ color: white;
+
+}
+
+/* *******************CONTACTO*********************** */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    height: 500px;
+    background-image: url("./rec/contact-background.jpg");
+}   
+
+.aboutus {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+   
+}
+
+.form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.aboutus p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.acept {
+    display: inline;
+    color: white; 
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.textarea {
+    width:300px;
+    height:100px;
+    border: 1px solid #0090;
+    background-color: lightslategrey;
+    margin-top: 10px;;
+}
+
+.text{
+    width:300px;
+    height:30px;
+    border: 1px solid #0090;
+    background-color: lightslategrey;
+    margin-top: 10px;
+}
+.submit {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#399;
+    color:#fff; 
+    padding:5px 5px;
+    margin:10px;
+    font-size:16px;
+    border-radius:100px;
+    cursor:pointer;
+    border:1px transparent;
+    width: 20%;
+}
+
+.form a {
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+    font-family: Georgia;
+    
+}
+
+.footer {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(9, 9, 9, .8);
+}
+
+.about {
+    width: 20%;
+    color: white;
+    font-size: 12px;
+}
+
+.about p{
+   margin-top: 10px;
+} 
+
+.important {
+    width: 20%;
+    color: white;
+    font-size: 12px;
+}
+
+.important p{
+    margin-top: 10px;
+ } 
+
+.link {
+    width: 20%;
+    color: white;
+    font-size: 12px;
+}
+
+.link p{
+    margin-top: 10px;
+ } 
+
+
